@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Primary-Dark-Blue: hsl(233, 26%, 24%);
+    --Lime-Green: hsl(136, 65%, 51%);
+    --Primary-Bright-Cyan: hsl(192, 70%, 51%);
+    --Netural-Grayish-Blue: hsl(233, 8%, 62%);
+    --Neutral-Light-Grayish-Blue: hsl(220, 16%, 96%);
+    --Neutral-Very-Light-Gray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%)
+  }
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    Font-size: 18px;
+}
+
