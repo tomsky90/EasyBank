@@ -19,6 +19,10 @@ body {
     Font-size: 18px;
 }
 
+body.no-scroll {
+     overflow-y: hidden;
+}
+
  h2, h3, h4 {
     color: var(--Primary-Dark-Blue);
     font-weight: 300;
@@ -73,8 +77,44 @@ header .request-btn {
     background-color: transparent;
 }
 
+.hamburger.unactive {
+    display:none
+}
+
+.hamburger.closed {
+    display: none;
+}
+
+.hamburger.closed.active {
+    display: block;
+}
+
 .mobile-nav {
     display: none;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    padding: 30px 0 30px 0;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+    background-color: #fff;
+    z-index: 9;
+    transition: 1s ;
+}
+
+.mobile-nav.active {
+    display: block;
+}
+
+.mobile-nav a {
+    text-decoration: none;
+    color: var(--Primary-Dark-Blue);
+}
+
+.mobile-nav li {
+    list-style: none;
+    margin-bottom: 20px;
 }
 
 /* Welcom Section */
@@ -82,6 +122,24 @@ header .request-btn {
 .welcom-section {
     position: relative;
     height: 350px;
+}
+
+.blur{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background:rgba(0,0,0,0.6)
+}
+
+.blur.active {
+    display: block;
+}
+
+.blure .active {
+    display: block;
 }
 
 .welcom-img {
@@ -198,6 +256,8 @@ header .request-btn {
     margin-bottom: 20px;
 }
 
+/* Footer style */
+
 footer {
     text-align: center;
     background-color: var(--Primary-Dark-Blue);
@@ -226,6 +286,10 @@ footer ul li a {
 footer .socials img {
     margin-left: 10px;
     margin-bottom: 20px;
+}
+
+footer .socials a{
+    text-decoration: none;
 }
 
 footer .request-btn {
