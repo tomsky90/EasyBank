@@ -69,7 +69,7 @@ main {
 /* style for header and nav */
 
 header {
-    height: 10vh;
+    height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
