@@ -275,11 +275,12 @@ header .request-btn {
     .desktop-intro {
         display: block;
         position: absolute;
-        top: -180px;
-        left: -80px;
+        top: -150px;
+        left: -40px;
     }
     .desktop-intro img {
         width: 180%;
+        
     }
     .mockup-picture img {
         display: none;
@@ -303,6 +304,9 @@ header .request-btn {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+    }
+    .welcom-text article {
+        width: 70%;
     }
     .welcom-section {
         height: 500px;
