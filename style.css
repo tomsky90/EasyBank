@@ -56,7 +56,7 @@ article {
 
 .wrapper {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -299,17 +299,22 @@ header .request-btn {
 }
 
 @media only screen and (min-width: 1024px) {
+    .welcom-text {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
     .welcom-section {
-        height: 450px;
+        height: 500px;
     }
     .mockup-picture-desktop img {
         width: 55%;
-        top: -100px;
-        right: -100px;
+        top: -90px;
+        right: -120px;
     }
     .desktop-intro {
         top: -220px;
-        left: -60px;
+        left: -50px;
     }
     .desktop-nav ul li::after {
         position: absolute;
@@ -332,12 +337,14 @@ header .request-btn {
     }
 }
 @media only screen and (min-width: 1200px) {
+    .welcom-section {
+        height: 600px;
+    }
     .mockup-picture-desktop img {
-        width: 45%;
+        width: 50%;
     }
     .desktop-intro {
         top: -240px;
-        left: 40px
     }
 }
 /* section easy-bank */
